@@ -9,7 +9,7 @@ public class OverloadingTest {
   @Test
   public void shouldAddTwoNumbers() {
     var obj = new Overloading();
-    assertEquals(8, obj.add(4, 5));
+    assertEquals(8, obj.add(4, 4));
   }
 
   @Test
