@@ -1,5 +1,8 @@
 package edu.vn.rmit.problem4;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * @author COSC2440 Teaching Team
  * @version 1.0
@@ -8,16 +11,20 @@ package edu.vn.rmit.problem4;
  public class Project {
   private String name;
   private double budget;
-  private Lecturer leader;
-  private CanJoinProject[] members;
+
+    public double getBudget() {
+        return budget;
+    }
+
+    private Lecturer leader;
+  private List<CanJoinProject> members;
   private static final int MAX_MEMBERS = 10;
   private int memberCount;
   
   public Project(String name, double budget) {
     this.name = name;
     this.budget = budget;
-    memberCount = 0;
-    members = new CanJoinProject[MAX_MEMBERS];
+    members = new ArrayList<>();
   }
 
   // Getter methods
@@ -44,7 +51,9 @@ package edu.vn.rmit.problem4;
    * @param leader the new leader for this project
    */
   public void assignLeader(Lecturer leader) {
-    this.leader = leader;
+
+      this.leader = leader;
+      LeaderSet.addLeader(leader);
   }
 
   /**
@@ -56,7 +65,7 @@ package edu.vn.rmit.problem4;
    * @param newMember a member who want to join this project
    */
   public void addMember(CanJoinProject newMember) {
-    members[memberCount++] = newMember;
+    members.add(newMember);
   }
 
   /**
@@ -67,8 +76,10 @@ package edu.vn.rmit.problem4;
     System.out.println("Leader: " + leader);
 
     // display members
-    for(int i = 0; i < memberCount; i++) {
-      System.out.printf("Member #%d: " + members[i] + "\n", i + 1);
+      int i = 0;
+    for(CanJoinProject member:members) {
+      System.out.printf("Member #%d: " + member + "\n", i + 1);
+      i++;
     }
   }
 }

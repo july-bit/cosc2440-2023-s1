@@ -4,18 +4,101 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea9e35fb-3c7a-47aa-a839-a3c615e0e3c4" name="Changes" comment="" />
+    <list default="true" id="ea9e35fb-3c7a-47aa-a839-a3c615e0e3c4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/src/main/java/edu/vn/rmit/problem4/Lecturer.java" beforeDir="false" afterPath="$PROJECT_DIR$/w03/src/main/java/edu/vn/rmit/problem4/Lecturer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/src/main/java/edu/vn/rmit/problem4/Project.java" beforeDir="false" afterPath="$PROJECT_DIR$/w03/src/main/java/edu/vn/rmit/problem4/Project.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/AbstractClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/AbstractClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Afternoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Afternoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Child1.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Child1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Child2.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Child2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Morning.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Morning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Parent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/example/Parent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/FullTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/FullTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/PartTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/PartTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/StudentGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem1/StudentGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/FullTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/FullTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Lecturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Lecturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/PartTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/PartTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem2/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/FullTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/FullTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/Lecturer.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/Lecturer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/PartTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/PartTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/Project.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/Project.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem3/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/FullTimeStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/FullTimeStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/Lecturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/PartTimeStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/Project.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/w03/target/classes/edu/vn/rmit/problem4/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/example/AbstractClassTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/example/InterfaceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/problem1/StudentTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/problem2/ProjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/problem3/ProjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/problem4/CanJoinProjectTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/w03/target/test-classes/edu/vn/rmit/problem4/ProjectTest.class" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "node.js.selected.package.tslint": "(autodetect)"
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Nd9bgNrRkKwbNZyarUHfycYy6Q" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/cugia/Documents/GitHub/cosc2440-2023-s1&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="cosc2440-2023-s1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="cosc2440-2023-s1" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ea9e35fb-3c7a-47aa-a839-a3c615e0e3c4" name="Changes" comment="" />
+      <created>1679983165061</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679983165061</updated>
+      <workItem from="1679983166689" duration="1344000" />
+      <workItem from="1680102770235" duration="34000" />
+    </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

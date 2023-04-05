@@ -1,5 +1,11 @@
 package edu.vn.rmit.problem4;
 
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Set;
+import static edu.vn.rmit.problem4.LeaderSet.LeaderSet;
+import static edu.vn.rmit.problem4.ProjectMember.ProjectMember;
 /**
  * @author COSC2440 Teaching Team
  * @version 1.0
@@ -11,6 +17,10 @@ public class Lecturer implements CanJoinProject {
   private String rank;
   private Project projectLed;
   private String profile;
+
+  public Project getProjectLed() {
+    return projectLed;
+  }
 
   public Lecturer(String employeeId, String fullName, String rank) {
     this.employeeId = employeeId;
@@ -38,6 +48,7 @@ public class Lecturer implements CanJoinProject {
     if (projectLed == null && p.getLeader() == null) {
       projectLed = p;
       p.assignLeader(this);
+      LeaderSet.add(this);
       return true;
     }
     return false;
@@ -54,6 +65,7 @@ public class Lecturer implements CanJoinProject {
    */
   public void joinProject(Project p) {
     p.addMember(this);
+//    ProjectMember.put(this, );
   }
 
   /**
@@ -79,5 +91,19 @@ public class Lecturer implements CanJoinProject {
   @Override
   public String getProfile() {
     return this.profile;
+  }
+  @Override
+  public boolean equals(Object lec) {
+    if (lec == this) {
+      return true;
+    }
+    if (lec instanceof Lecturer) {
+      return Objects.equals(this.employeeId, ((Lecturer) lec).employeeId);
+    }
+    return false;
+  }
+  @Override
+  public int hashCode() {
+    return 1;
   }
 }
